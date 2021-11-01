@@ -1,7 +1,7 @@
 # Demo tapes Portofolio
 
 Just another school project.
-We all listen to music dont we, so my idea here is to combine this project into something more then just another fictional case that makes no sense. To make my friend's productions attract more people and make his creation stand out, and represent as more proffesional i agreed with him to help him out online.
+We all listen to music dont we, so my idea here is to combine this project into something more then just another fictional case that makes no sense. To make my friend's productions attract more people and make his creation stand out, I have agreed with him to help him out online.
 
 ### Live
 - Comming soon
