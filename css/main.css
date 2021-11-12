@@ -1,0 +1,31 @@
+@import url(./reset.css);
+body {
+    background-size: cover!important;
+}
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(71, 33, 178, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+#landing {
+    background: url(../img/demo-landing.jpg) no-repeat center center fixed;
+}
+#music {
+    background: url(../img/demo-music.jpg) no-repeat center center fixed;
+}
+#about {
+    background: url(../img/demo-about.jpg) no-repeat center center fixed;
+}
+#contact {
+    background: url(../img/demo-get-in-touch.jpg) no-repeat center center fixed;
+}
+
+/* 
+
+NAVIGATION
+
+*/
+
+.current {
+    border-bottom: 2px solid #FFFFFF
+}
