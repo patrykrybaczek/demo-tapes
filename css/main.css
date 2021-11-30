@@ -41,7 +41,7 @@ main {
 }
 /* 
 
-NAVIGATION
+    NAVIGATION
 
 */
 nav ul {
@@ -64,12 +64,85 @@ nav ul li a {
     font-family: 'Red Hat Display', sans-serif;
 }
 
+.current {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #FFFFFF;
+}
+
 nav ul li a:hover {
     padding-bottom: 5px;
     border-bottom: 2px solid #FFFFFF;
 }
 
-.about-container img {
-    width: 125px;
+main {
+    width: 820px;
+    margin: 0 auto;
+}
+
+main .logo{
+    width: 175px;
+    margin-top: 10px;
+
+    opacity: 0.2;
+}
+
+/* 
+    Containers
+*/
+
+.container {
+    padding: 5% 7% 5% 7%;
+
+    background-image: url(../img/sound_drip.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+
+.container p {
+    width: 600px;
+}
+
+.container h2 {
+    font-size: 72px;
+    line-height: 75px;
+}
+
+.container h3 {
+    opacity: 0.4;
+    font-size: 36px;    
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+}
+
+.container-header img {
+    width: 115px;
     border-radius: 50%;
+}
+
+.container-header h2 {
+    margin-left: 15px;
+}
+
+.container-main h3 {
+    opacity: 0.4;
+    font-size: 36px;
+}
+
+.icons-container {
+    display: flex;
+    align-items: center;
+}
+
+.icons-container i{
+    margin-right: 15px;
+    font-size: 38px;
+}
+
+.icons-container a{
+    color: #FFFFFF;
+    text-decoration: none;
 }
