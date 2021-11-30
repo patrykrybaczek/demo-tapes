@@ -1,25 +1,40 @@
 @import url(./reset.css);
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap');
 body {
     background-size: cover!important;
+    font-family: 'Red Hat Display', sans-serif;
 }
+
 .overlay {
     width: 100vw;
     height: 100vh;
     background: linear-gradient(180deg, rgba(71, 33, 178, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%);
 }
+
+main {
+    color: #FFFFFF;
+    border-radius: 35px;
+    border-radius: 35px;
+    box-shadow: 0px 4px 12px -1px #000000, inset 5px 5px 15px rgba(255, 255, 255, 0.1);
+    background: linear-gradient(112.02deg, rgba(71, 33, 178, 0.51) 0%, rgba(71, 33, 178, 0.0425) 100%);
+}
+
 #landing {
     background: url(../img/demo-landing.jpg) no-repeat center center fixed;
 }
+
 #music {
     background: url(../img/demo-music.jpg) no-repeat center center fixed;
 }
+
 #about {
     background: url(../img/demo-about.jpg) no-repeat center center fixed;
 }
+
 #contact {
     background: url(../img/demo-get-in-touch.jpg) no-repeat center center fixed;
 }
+
 .landing-logo {
     width: 55%;
     margin: 0 auto;
@@ -45,13 +60,16 @@ nav ul li a {
     text-decoration: none;
 
     font-size: 24px;
-    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 nav ul li a:hover {
-    border-bottom: 2px solid #FFFFFF
+    padding-bottom: 5px;
+    border-bottom: 2px solid #FFFFFF;
 }
 
-.current {
-    border-bottom: 2px solid #FFFFFF
+.about-container img {
+    width: 125px;
+    border-radius: 50%;
 }
